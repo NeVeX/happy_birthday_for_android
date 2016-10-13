@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:and="http://schemas.android.com/apk/res/android"
+    and:layout_width="fill_parent"
+    and:layout_height="fill_parent"
+    and:orientation="vertical" 
+    >
+    <RelativeLayout 
+        and:id="@+id/TitleInnerRelativeLayout"
+        and:layout_width="fill_parent"
+        and:layout_height="wrap_content"
+       	and:layout_marginBottom="20.0dp"
+        >
+       	<ImageView
+		    and:id="@+id/titleImage"
+		    and:layout_gravity="center"
+		    and:layout_height="fill_parent" 
+		    and:layout_width="fill_parent"
+		    and:contentDescription="@string/TitlePictureContentDescription"
+		    and:src="@drawable/title"
+		    and:onClick="TitleImageClicked"
+	 	/>
+	 	<TextView 
+		    and:id="@+id/titleImageText"
+		    and:gravity="center_horizontal"
+		    and:layout_gravity="center_horizontal"
+		    and:layout_height="wrap_content" 
+		    and:layout_width="fill_parent"
+		    and:layout_alignParentBottom="true" 
+		    and:textColor="@color/markBlue"
+		    
+		/>
+ 	</RelativeLayout>
+
+</LinearLayout>

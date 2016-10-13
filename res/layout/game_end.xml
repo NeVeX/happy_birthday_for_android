@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:and="http://schemas.android.com/apk/res/android"
+	    and:layout_width="fill_parent"
+	    and:layout_height="fill_parent">
+
+	<LinearLayout 
+	    and:layout_width="fill_parent"
+	    and:layout_height="wrap_content"
+	    and:orientation="vertical"  >
+	   	<TextView 
+			and:id="@+id/aboutTextView"
+			and:text="@string/GameEndText"
+			and:gravity="top|center_horizontal"
+			and:layout_width="fill_parent"
+			and:layout_height="wrap_content"
+			and:layout_marginTop="20.0dp"
+		/>
+	   	
+		<TextView 
+			and:id="@+id/endGameTextBefore"
+			and:text="@string/EndGameBodyTextBefore"
+			and:layout_width="fill_parent"
+			and:layout_gravity="left"
+			and:layout_height="wrap_content"
+			and:textSize="16.0dp"
+			and:layout_marginTop="20.0dp"
+		/>
+	   	
+		<TextView 
+			and:id="@+id/resturantText"
+			and:text="@string/ResturantText"
+			and:layout_width="fill_parent"
+			and:layout_gravity="center_horizontal"
+			and:gravity="center_horizontal"
+			and:layout_height="wrap_content"
+			and:textSize="16.0dp"
+			and:textColor="@color/markRed"
+		/>
+		
+		<TextView 
+			and:id="@+id/endGameTextAfterFirst"
+			and:text="@string/EndGameBodyTextAfterFirst"
+			and:layout_width="fill_parent"
+			and:layout_gravity="left"
+			and:layout_height="wrap_content"
+			and:textSize="16.0dp"
+			and:layout_marginTop="20.0dp"
+		/>
+		<!-- 
+		<TextView 
+			and:id="@+id/ancientText"
+			and:text="@string/AncientText"
+			and:layout_width="fill_parent"
+			and:layout_gravity="center_horizontal"
+			and:gravity="center_horizontal"
+			and:layout_height="wrap_content"
+			and:textSize="16.0dp"
+			and:layout_marginTop="20.0dp"
+			and:textColor="@color/markRed"
+			and:textStyle="bold"	
+		/>	
+		 
+		<TextView 
+			and:id="@+id/endGameTextAfterSecond"
+			and:text="@string/EndGameBodyTextAfterSecond"
+			and:layout_width="fill_parent"
+			and:layout_gravity="left"
+			and:layout_height="wrap_content"
+			and:textSize="16.0dp"
+			and:layout_marginTop="20.0dp"
+		/>
+		-->
+		<RelativeLayout 
+	        and:id="@+id/InnerRelativeLayout"
+	        and:layout_width="fill_parent"
+	        and:layout_height="wrap_content"
+	        and:layout_marginBottom="20.0dp"
+	        >
+	   	
+		   	<Button 
+		   	    and:id="@+id/EndGameButton"
+		   	    and:onClick="EndGameButtonClick"
+				and:text="@string/GameEndButton"
+				and:layout_centerHorizontal="true"
+				and:layout_width="wrap_content"
+			 	and:layout_alignParentBottom="true" 
+				and:layout_height="wrap_content"
+		   	    />
+		</RelativeLayout>
+	</LinearLayout>
+</ScrollView>

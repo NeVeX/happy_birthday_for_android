@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:and="http://schemas.android.com/apk/res/android"
+    and:layout_width="fill_parent"
+    and:layout_height="fill_parent"
+    and:orientation="vertical" >
+
+
+    <TextView
+        and:id="@+id/QuestionText"
+        and:layout_width="wrap_content"
+        and:layout_height="wrap_content"
+        and:layout_gravity="center_horizontal"
+        and:gravity="center_horizontal"
+        and:textSize="18.0dp" 
+        and:layout_marginTop="20.0dp"
+        and:layout_marginBottom="40.0dp"
+         />
+    
+    
+    
+   	<TableLayout
+        and:layout_width="match_parent"
+        and:layout_height="wrap_content"
+		and:layout_margin="20.0dp"
+        >
+	        <Button
+	            and:id="@+id/Answer1aButton"
+	            and:layout_width="match_parent"
+	            and:layout_height="wrap_content"
+	            and:onClick="AnswerButton1aClicked"
+	            and:textSize="18.0dp"  
+	            and:enabled="false"
+	            />
+        	<Button 
+	            and:id="@+id/Answer1bButton"
+	            and:layout_width="match_parent"
+	    		and:layout_height="wrap_content"
+	    		and:onClick="AnswerButton1bClicked"
+	    		and:textSize="18.0dp" 
+	    		and:enabled="false"
+   			/>
+			<Button 
+				and:id="@+id/Answer1cButton"
+				and:layout_width="match_parent"
+				and:layout_height="wrap_content"
+				and:onClick="AnswerButton1cClicked"
+				and:textSize="18.0dp" 
+				and:enabled="false"
+			/>
+			<Button 
+				and:id="@+id/Answer1dButton"
+				and:layout_width="match_parent"
+				and:layout_height="wrap_content"
+				and:onClick="AnswerButton1dClicked"
+				and:textSize="18.0dp" 
+				and:enabled="false"
+			/>
+    </TableLayout>
+    
+    <TextView 
+        and:id="@+id/TriesRemaining"
+        and:layout_width="wrap_content"
+    	and:layout_height="wrap_content"
+    	and:gravity="center_horizontal"
+        />
+ </LinearLayout>

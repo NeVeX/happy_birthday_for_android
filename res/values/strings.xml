@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="markRed">#E31F04</color>
+	<color name="markBlue">#6698FF</color>
+    <string name="app_name">Happy Birthday Adriana 2012</string>
+    <string name="TitlePictureContentDescription">Happy Birthday Adriana</string>
+    <string name="MainMenuTestText">The <b>Birthday</b> Menu</string>
+    <string name="BeginButtonText">Begin (Again)</string>
+    <string name="ExitButtonText">Exit</string>
+    <string name="AboutButtonText">About</string>
+    <string name="SettingsButtonText">Settings</string>
+	<string name="SettingsMenuText">Settings Menu</string>
+    <string name="SoundOnOffCheckBoxText">Sounds On/Off</string>
+    <string name="TitleImageText"><i>Touch The Cake Above To Continue</i></string>
+    <string name="HappyValentines">Happy Birthday "\n" Adriana</string>
+    <string name="AboutTextTitle"><u>So, Another Bloody Quiz App! Jeez!</u></string>
+    <string name="CorrectAnswerDialogBoxCheckBoxText">Show Correct Answer Pop-up Box</string>
+    <!--  <string name="DebugModeCheckBoxText">Mark\'s Mode</string> -->
+    
+    <string name="AboutText">
+Adriana, my darling!
+"\n"
+"\n"
+Happy Birthday! x
+"\n"
+"\n"
+So, this is the second incarnation of me creating applications for you (although this application is very similiar to the Valentines one earlier this year).
+I hope you like all the multi-choice questions this time around and perhaps, just maybe, you don\'t answer and finish the whole game in under 5 mins!! :-/ 
+"\n"
+"\n"
+What can I say?
+"\n"
+"\n"
+I love you Adriana.
+"\n"
+With all my heart.
+"\n"
+Now, and forever more.
+"\n"
+"\n"
+You don\'t look a day over 20 and the proof is in people\'s shocked reactions when they find out your age - you really do look so incredibly young, and Ireland was a great testament to this too!
+Not only that, you act young, which is something that really attracts me to you. Fair enough, you might say <i>I\'m tired Marky</i> but you only say it when we\'ve done long days of activities, or when
+we\'ve lied around all day watching tv or <i>playing</i> constantly in the bedroom! :-)
+But your youth does shine through your radiant skin and your presence lifts the spirits of those around you - you are an Angel, my Angel.
+"\n"
+"\n"
+Today we celebrate you and your awesomeness. But we also look to the future and become excited of the paths and the stories that will unfold in front of us, both of us there, <b>being forever young</b>.
+"\n"
+"\n"
+I do hope you enjoy the present(s) too. :-)
+"\n"
+"\n"
+Happy Birthday again Baby!
+"\n"
+You Have All My Love,
+"\n"
+Mark.
+"\n"
+x
+"\n"
+"\n"
+<b>P.S:</b>
+"\n"
+I hope you like the music this time around too!
+"\n"
+"\n"
+</string>
+    
+    <string name="GameIntroText"> 
+        <u>Adriana! Please, Save Me....AGAIN!</u>
+	</string>
+    <string name="StartGameButton">Rescue Your True Love...Again!</string>
+    <string name="GameIntroBodyText">
+Baby! I\'ve being kidnaped, AGAIN!, by my arch nemesis <b>KraM</b>!
+He is holding me captive in another, very nice restaurant, AGAIN! The BASTARD!
+"\n"
+"\n"
+Will you come save me....again....but hopefully slower then 5 mins (like the last time)! :-)
+"\n"
+"\n"
+What, you will save? Yay! Right, well instead of me just saying the name and location of the place (no fun there right!), 
+I have instead left multi-choice questions, that once all of them are answered, it will lead to my location.  
+Only the one whose <u>birthday is today</u>, shall find me and save me from this tempting delicious food....I mean <b>KraM</b>! THE BASTARD!
+"\n"
+"\n"
+Begin your <b>love</b> quest and use your <b>infinite wisdom</b> to save me from my <b>impending doom</b> or <b>expanding waistline</b>!
+"\n"
+I trust you will succeed....again....(I really am very sorry that I keep getting kidnapped by KRAM, into lovely restaurants around our special times).
+"\n"
+"\n"
+<b>Anyhow, Bhest \'o Luck in your quest!</b>
+   	</string> 
+    
+    <string name="GameEndText">
+        <u>Horray! You Love Marky!</u>
+    </string>
+        <string name="EndGameBodyTextBefore">
+Baby! You\'ve completed the birthday quiz....of...<i>love</i>!
+"\n"
+Now that you have proven that you are awesome, I shall reveal onto you my where-abouts!
+   	</string> 
+	<string name="ResturantText">
+	    "\n"<b>GasLight</b>"\n"
+	    <b>560 Harrison Avenue</b>"\n"
+	    <b>Boston, MA</b>"\n"
+	    <b>02118</b>
+    </string>
+	<string name="EndGameBodyTextAfterFirst">
+"\n"
+"\n"
+What time should you aim to save me by??
+"\n"
+Please save me by <b>20:00</b> hours. (whatever does <i>20:00</i> mean!!!??!!)
+"\n"
+:-)
+"\n"
+"\n"
+"\n"
+I\'ll be waiting for you.....sexy and patiently...x
+   </string>
+	
+	<string name="GameEndButton">Save Marky!</string>
+	
+	
+</resources>
